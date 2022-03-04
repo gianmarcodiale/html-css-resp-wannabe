@@ -71,3 +71,38 @@ img {
 .clear {
   clear: both;
 }
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 420px) {
+
+    .row {
+      width: 420px;
+      font-size: 12px;
+      margin: -7px;
+    }
+
+    #lezioni>.row {
+      background-color: rgba(242, 242, 205, 1);
+    }
+
+    #lezioni .row>.left, #lezioni .row>.right {
+      width: 100%;
+    }
+
+    img {
+      height: 100px;
+    }
+    
+    #steps .row>.left, #steps .row>.central, #steps .row>.right {
+      width: 100%;
+    }
+
+    #steps.container {
+      background-color: transparent;
+    }
+
+    #why>.row{
+      background-color: rgba(242, 242, 205, 1);
+    }
+}
