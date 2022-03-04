@@ -88,14 +88,17 @@ img {
 
     #lezioni .row>.left, #lezioni .row>.right {
       width: 100%;
+      margin-bottom: 15px;
     }
 
     img {
       height: 100px;
+      margin-top: 20px;
     }
     
     #steps .row>.left, #steps .row>.central, #steps .row>.right {
       width: 100%;
+      margin-bottom: 15px;
     }
 
     #steps.container {
