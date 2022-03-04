@@ -108,4 +108,12 @@ img {
     #why>.row{
       background-color: rgba(242, 242, 205, 1);
     }
+
+    #why .row > .first, #why .row > .second, #why .row > .third {
+      margin-top: 25px;
+    }
+
+    #why h1 {
+      padding: 20px;
+    }
 }
